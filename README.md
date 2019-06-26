@@ -14,7 +14,7 @@ Run `npm run build --prod=true` to build the project. The build artifacts will b
 
 プロダクトモードでビルドしたものを下記のサイトで公開しています。
 
-`http://https://eager-kilby-e6c21f.netlify.com`
+`https://eager-kilby-e6c21f.netlify.com`
 
 
 ## ご指摘・ご意見等
