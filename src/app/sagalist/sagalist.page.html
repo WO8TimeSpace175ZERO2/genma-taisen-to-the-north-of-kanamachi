@@ -1,0 +1,137 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>幻魔大戦サーガ作品一覧</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list lines="none">
+        <ion-list-header>
+          <ion-label>幻魔大戦サーガには何がある？</ion-label>
+        </ion-list-header>
+  
+        <ion-grid>
+            <ion-row  align-items-center>
+                <ion-col size="3">
+                  シリーズ名：
+                </ion-col>
+                <ion-col>
+                  幻魔大戦第1次シリーズ
+                </ion-col>
+              </ion-row>  
+          <ion-row>
+              <ion-col>
+                      <ion-list lines="full">
+                          <ion-item *ngFor="let sagaBook of  series1$ | async">
+                              <ion-icon slot="start" color="medium" name="book"></ion-icon>
+                              <ion-label>
+                                  <ion-text color="primary">
+                                      <h3> {{sagaBook.bookName}} </h3>
+                                    </ion-text>
+                                    <ion-text color="secondary">
+                                        <h5>{{sagaBook.description}}</h5>
+                                    </ion-text>
+                                    <ion-text color="tertiary">
+                                        <h6>{{sagaBook.author}}</h6>
+                                    </ion-text>
+                              </ion-label>
+                              <ion-button color="warning" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</ion-button>
+                          </ion-item>
+                      </ion-list>
+              </ion-col>
+            </ion-row>
+            </ion-grid>
+  
+            <ion-row  align-items-center>
+                <ion-col size="3">
+                  シリーズ名：
+                </ion-col>
+                <ion-col>
+                  幻魔大戦第2次シリーズ
+                </ion-col>
+              </ion-row>  
+          <ion-row>
+              <ion-col>
+                      <ion-list lines="full">
+                          <ion-item *ngFor="let sagaBook of  series2$ | async">
+                              <ion-icon slot="start" color="medium" name="book"></ion-icon>
+                              <ion-label>
+                                  <ion-text color="primary">
+                                      <h3> {{sagaBook.bookName}} </h3>
+                                    </ion-text>
+                                    <ion-text color="secondary">
+                                        <h5>{{sagaBook.description}}</h5>
+                                    </ion-text>
+                                    <ion-text color="tertiary">
+                                        <h6>{{sagaBook.author}}</h6>
+                                    </ion-text>
+                              </ion-label>
+                              <ion-button color="warning" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</ion-button>
+                          </ion-item>
+                      </ion-list>
+              </ion-col>
+            </ion-row>
+  
+            <ion-row  align-items-center>
+                <ion-col size="3">
+                  シリーズ名：
+                </ion-col>
+                <ion-col>
+                  幻魔大戦第3次シリーズ
+                </ion-col>
+              </ion-row>  
+          <ion-row>
+              <ion-col>
+                      <ion-list lines="full">
+                          <ion-item *ngFor="let sagaBook of  series3$ | async">
+                              <ion-icon slot="start" color="medium" name="book"></ion-icon>
+                              <ion-label>
+                                  <ion-text color="primary">
+                                      <h3> {{sagaBook.bookName}} </h3>
+                                    </ion-text>
+                                    <ion-text color="secondary">
+                                        <h5>{{sagaBook.description}}</h5>
+                                    </ion-text>
+                                    <ion-text color="tertiary">
+                                        <h6>{{sagaBook.author}}</h6>
+                                    </ion-text>
+                              </ion-label>
+                              <ion-button color="warning" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</ion-button>
+                          </ion-item>                      </ion-list>
+              </ion-col>
+            </ion-row>
+  
+  
+            <ion-row  align-items-center>
+                <ion-col size="3">
+                  シリーズ名：
+                </ion-col>
+                <ion-col>
+                  幻魔大戦第4次シリーズ
+                </ion-col>
+              </ion-row>  
+          <ion-row>
+              <ion-col>
+                      <ion-list lines="full">
+                          <ion-item *ngFor="let sagaBook of  series4$ | async">
+                              <ion-icon slot="start" color="medium" name="book"></ion-icon>
+                              <ion-label>
+                                  <ion-text color="primary">
+                                      <h3> {{sagaBook.bookName}} </h3>
+                                    </ion-text>
+                                    <ion-text color="secondary">
+                                        <h5>{{sagaBook.description}}</h5>
+                                    </ion-text>
+                                    <ion-text color="tertiary">
+                                        <h6>{{sagaBook.author}}</h6>
+                                    </ion-text>
+                              </ion-label>
+                              <ion-button color="warning" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</ion-button>
+                          </ion-item>
+                      </ion-list>
+              </ion-col>
+            </ion-row>
+  
+      </ion-list>
+  
+</ion-content>

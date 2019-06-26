@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>石森章太郎からのメッセージ　拝啓・読者さま</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list lines="none">
+            <div *ngIf="articleContent|async as safeHtmlArticle; else prog">
+             <p [innerHTML]="safeHtmlArticle"></p>
+            </div>
+            <ng-template #prog>Now Loading ... </ng-template>
+
+    </ion-list>
+ 
+</ion-content>
+
