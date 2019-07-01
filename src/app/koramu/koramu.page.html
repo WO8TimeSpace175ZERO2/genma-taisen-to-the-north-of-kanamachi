@@ -5,5 +5,14 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-menu-toggle auto-hide="false" *ngFor="let kiji of items">
+      <ion-item  [routerLink]="['../article/' + kiji.kijiId]">
+        <ion-icon slot="start" [name]="kiji.icon"></ion-icon>
+        <ion-label>
+          {{kiji.title}}
+        </ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+  </ion-list>
 </ion-content>
