@@ -21,7 +21,7 @@ export class ArticleService {
     // tslint:disable-next-line:max-line-length
     safeHtml = await this.httpClient.get('https://reverent-torvalds-1d6345.netlify.com/plainArticles/plainArticle-' + articleId + '.html', { responseType: 'text' })
                                                             .toPromise();
-    console.log(`記事ID:${articleId}★ \n ${safeHtml}` );
+    // console.log(`記事ID:${articleId}★ \n ${safeHtml}` );
 
     return safeHtml;
   }

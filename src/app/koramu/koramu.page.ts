@@ -34,7 +34,7 @@ export class KoramuPage implements OnInit {
   }
 
   ionViewDidLeave() {
-    console.log('★ionViewDidLeaveが呼ばれた');
+    // console.log('★ionViewDidLeaveが呼ばれた');
     this.menuController.close();
   }
 
