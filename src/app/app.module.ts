@@ -15,8 +15,8 @@ import { ModalShowArticleComponent } from './components/modal-show-article/modal
 import { EmbeddedArticleComponent } from './components/embedded-article/embedded-article.component';
 
 @NgModule({
-  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent],
-  entryComponents: [ModalShowArticleComponent, EmbeddedArticleComponent],
+  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
+  entryComponents: [ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
