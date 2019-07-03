@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 import { KijiItem } from '../KijiItem';
 
 @Component({
@@ -27,9 +28,14 @@ export class KoramuPage implements OnInit {
       kijiId: '100all'},
   ];
 
-  constructor() { }
+  constructor(private menuController: MenuController) { }
 
   ngOnInit() {
+  }
+
+  ionViewDidLeave() {
+    console.log('★ionViewDidLeaveが呼ばれた');
+    this.menuController.close();
   }
 
 }
