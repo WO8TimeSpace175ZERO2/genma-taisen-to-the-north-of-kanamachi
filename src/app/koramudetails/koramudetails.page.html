@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+        <ion-back-button defaultHref="/koramu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>コラム : {{ articleTitle }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <div>
+            <div *ngIf="articleContent|async as safeHtmlArticle; else prog">
+            <p [innerHTML]="safeHtmlArticle"></p>
+            </div>
+            <ng-template #prog>Now Loading ... </ng-template>
+          </div>
+    </ion-list>
+</ion-content>
