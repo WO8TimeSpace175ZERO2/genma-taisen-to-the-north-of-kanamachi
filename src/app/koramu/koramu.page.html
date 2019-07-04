@@ -9,8 +9,8 @@
 
 <ion-content>
   <ion-list>
-    <ion-menu-toggle auto-hide="false" *ngFor="let kiji of items">
-      <ion-item [routerDirection]="'forward'"  [routerLink]="['../article/' + kiji.kijiId]">
+    <ion-menu-toggle auto-hide="false" *ngFor="let kiji of  kijiItemList$ | async">
+      <ion-item [routerDirection]="'forward'"  [routerLink]="['../koramudetails/' + kiji.kijiId + '/' + kiji.title + '/' + kiji.createdDate + '/' + kiji.modifiedDate]">
         <ion-icon slot="start" [name]="kiji.icon"></ion-icon>
         <ion-label>
           {{kiji.title}}
