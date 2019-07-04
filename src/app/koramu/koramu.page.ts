@@ -23,9 +23,9 @@ export class KoramuPage implements OnInit {
 
   public items: Array<KijiItem> = [
     {title: '1979年春季 リュウ Vol1 拝啓・読者さま。',  icon: 'flask',
-      kijiId: '100all'},
+      kijiId: '100all', createdDate: '2019年07月04日', modifiedDate: '2019年07月05日'},
       {title: '1979年夏季 リュウ Vol2 全宇宙の破滅をめざすGENMA-WARSの謎',  icon: 'wifi',
-      kijiId: '100all'},
+      kijiId: '100all', createdDate: '2019年07月04日', modifiedDate: '2019年07月05日'},
   ];
 
   constructor(private menuController: MenuController) { }

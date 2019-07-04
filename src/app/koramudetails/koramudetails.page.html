@@ -4,12 +4,26 @@
         <ion-menu-button></ion-menu-button>
         <ion-back-button defaultHref="/koramu"></ion-back-button>
     </ion-buttons>
-    <ion-title>コラム : {{ articleTitle }}</ion-title>
+    <ion-title>コラム </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
     <ion-list>
+        <ion-list-header>
+            <ion-label>{{ articleTitle }}</ion-label>
+          </ion-list-header>
+          <ion-item >
+              <ion-icon slot="start" color="medium" name="calendar"></ion-icon>
+              <ion-label>
+                  <ion-text color="success">
+                      <h3> 新規作成日：{{createdDate}} </h3>
+                    </ion-text>
+                    <ion-text color="primary">
+                        <h5>更新日：{{modifiedDate}}</h5>
+                    </ion-text>
+              </ion-label>
+          </ion-item>
         <div>
             <div *ngIf="articleContent|async as safeHtmlArticle; else prog">
             <p [innerHTML]="safeHtmlArticle"></p>
