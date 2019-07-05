@@ -1,12 +1,20 @@
 <style type="text/css">
-  .box_srcollbar {
+  .article_box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vw;
+  }
+  .article_box_srcollbar {
       overflow:auto;
-      width:95vw;
       height:100vw;
       padding:1vw;
       border:1px solid #000;
       background-color:#F9F9F9;
       color:#000;
+      -webkit-overflow-scrolling: touch;
   }
 
 </style>
@@ -37,8 +45,8 @@
                     </ion-text>
               </ion-label>
           </ion-item>
-        <div  class="box_srcollbar">
-            <div *ngIf="articleContent|async as safeHtmlArticle; else prog">
+        <div  class="article_box">
+            <div *ngIf="articleContent|async as safeHtmlArticle; else prog" class="article_box_srcollbar">
             <p [innerHTML]="safeHtmlArticle"></p>
             </div>
             <ng-template #prog>Now Loading ... </ng-template>
