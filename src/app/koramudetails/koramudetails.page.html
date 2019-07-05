@@ -41,17 +41,15 @@
               </ion-label>
           </ion-item>
 
-          <div class="article_box">
-            <div  class="article_box_srcollbar">
-              <div *ngIf="articleContent|async as safeHtmlArticle; else prog" >
-              <p [innerHTML]="safeHtmlArticle"></p>
-              </div>
-              <ng-template #prog>Now Loading ... </ng-template>
-            </div>
-          </div>
-
     </ion-list>
-
+    <div class="article_box">
+      <div  class="article_box_srcollbar">
+        <div *ngIf="articleContent|async as safeHtmlArticle; else prog" >
+        <p [innerHTML]="safeHtmlArticle"></p>
+        </div>
+        <ng-template #prog>Now Loading ... </ng-template>
+      </div>
+    </div>
 
 
 
