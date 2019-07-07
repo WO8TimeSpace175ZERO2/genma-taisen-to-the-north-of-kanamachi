@@ -21,11 +21,39 @@ export class KoramuPage implements OnInit {
   // kijiItemList$: Observable<KijiItem[]>;
   kijiItemList: KijiItem[] = [
     {
-        kijiId: 'koramu001history',
-        title: '幻魔大戦 打切／中断の略歴',
+        kijiId: 'koramu001historya',
+        title: '作品「幻魔大戦 」の成り立ち（１）',
         icon: 'basket',
-        createdDate: '2019年07月04日',
-        modifiedDate: '2019年07月04日'
+        createdDate: '2019年07月08日',
+        modifiedDate: '2019年07月08日'
+    },
+    {
+      kijiId: 'koramu001historyb',
+      title: '作品「幻魔大戦 」の成り立ち（２）',
+      icon: 'basket',
+      createdDate: '2019年07月08日',
+      modifiedDate: '2019年07月08日'
+    },
+    {
+      kijiId: 'koramu001historyc',
+      title: '作品「幻魔大戦 」の成り立ち（３）',
+      icon: 'basket',
+      createdDate: '2019年07月08日',
+      modifiedDate: '2019年07月08日'
+    },
+    {
+      kijiId: 'koramu001historyd',
+      title: '作品「幻魔大戦 」の成り立ち（４）',
+      icon: 'basket',
+      createdDate: '2019年07月08日',
+      modifiedDate: '2019年07月08日'
+    },
+    {
+      kijiId: 'koramu001historye',
+      title: '作品「幻魔大戦 」の成り立ち（５）',
+      icon: 'basket',
+      createdDate: '2019年07月08日',
+      modifiedDate: '2019年07月08日'
     },
     {
         kijiId: 'koramu002callkadokawa',
