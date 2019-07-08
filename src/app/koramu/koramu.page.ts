@@ -68,6 +68,20 @@ export class KoramuPage implements OnInit {
         icon: 'git-compare',
         createdDate: '2019年07月08日',
         modifiedDate: '2019年07月08日'
+    },
+    {
+        kijiId: 'koramu004motoneta002',
+        title: 'Rebirthの元ネタ（とにかく小説の幻魔大戦篇）',
+        icon: 'git-network',
+        createdDate: '2019年07月08日',
+        modifiedDate: '2019年07月08日'
+    },
+    {
+        kijiId: 'koramu005howtoread',
+        title: '幻魔大戦はどの順番で読むのがおススメ？',
+        icon: 'beer',
+        createdDate: '2019年07月08日',
+        modifiedDate: '2019年07月08日'
     }
   ];
 
