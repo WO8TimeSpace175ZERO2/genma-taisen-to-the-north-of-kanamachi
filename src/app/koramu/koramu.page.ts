@@ -59,8 +59,15 @@ export class KoramuPage implements OnInit {
         kijiId: 'koramu002callkadokawa',
         title: '角川文庫版と呼称する理由',
         icon: 'ice-cream',
-        createdDate: '2019年07月04日',
-        modifiedDate: '2019年07月04日'
+        createdDate: '2019年07月08日',
+        modifiedDate: '2019年07月08日'
+    },
+    {
+        kijiId: 'koramu003motoneta001',
+        title: 'Rebirthの元ネタ（角川文庫版篇）',
+        icon: 'git-compare',
+        createdDate: '2019年07月08日',
+        modifiedDate: '2019年07月08日'
     }
   ];
 
