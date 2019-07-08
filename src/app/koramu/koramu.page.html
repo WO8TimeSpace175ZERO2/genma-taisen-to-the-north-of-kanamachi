@@ -3,13 +3,13 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>コラム</ion-title>
+    <ion-title>コラム一覧</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-menu-toggle auto-hide="false" *ngFor="let kiji of  kijiItemList$ | async">
+    <ion-menu-toggle auto-hide="false" *ngFor="let kiji of  kijiItemList">
       <ion-item [routerDirection]="'forward'"  [routerLink]="['../koramudetails/' + kiji.kijiId + '/' + kiji.title + '/' + kiji.createdDate + '/' + kiji.modifiedDate]">
         <ion-icon slot="start" [name]="kiji.icon"></ion-icon>
         <ion-label>
