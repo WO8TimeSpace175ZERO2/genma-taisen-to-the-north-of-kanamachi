@@ -1,0 +1,58 @@
+<style type="text/css">
+  .article_box {
+    height: 100%;
+  }
+  .article_box_srcollbar {
+      overflow:auto;
+      height: 100%;
+      padding:1vw;
+      border:1px solid #000;
+      background-color:#F9F9F9;
+      color:#000;
+      -webkit-overflow-scrolling: touch;
+      font-family: Helvetica , '游ゴシック' , 'Yu Gothic' , sans-serif;
+  }
+
+
+</style>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+        <ion-back-button defaultHref="/koramu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>コラム </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-list-header>
+            <ion-label>{{ articleTitle }}</ion-label>
+          </ion-list-header>
+          <ion-item >
+              <ion-icon slot="start" color="medium" name="calendar"></ion-icon>
+              <ion-label>
+                  <ion-text color="success">
+                      <h3> 新規作成日：{{createdDate}} </h3>
+                    </ion-text>
+                    <ion-text color="primary">
+                        <h5>更新日：{{modifiedDate}}</h5>
+                    </ion-text>
+              </ion-label>
+          </ion-item>
+
+    </ion-list>
+    <div class="article_box">
+      <div  class="article_box_srcollbar">
+        <div *ngIf="articleContent|async as safeHtmlArticle; else prog" >
+        <p [innerHTML]="safeHtmlArticle"></p>
+        </div>
+        <ng-template #prog>Now Loading ... </ng-template>
+      </div>
+    </div>
+
+
+
+</ion-content>

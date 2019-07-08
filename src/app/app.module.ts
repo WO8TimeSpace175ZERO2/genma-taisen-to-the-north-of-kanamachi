@@ -13,10 +13,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { ArticleComponent } from './components/article/article.component';
 import { ModalShowArticleComponent } from './components/modal-show-article/modal-show-article.component';
 import { EmbeddedArticleComponent } from './components/embedded-article/embedded-article.component';
+import { ArticleService} from './components/article/article.service';
 
 @NgModule({
-  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent],
-  entryComponents: [ModalShowArticleComponent, EmbeddedArticleComponent],
+  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
+  entryComponents: [ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -26,7 +27,8 @@ import { EmbeddedArticleComponent } from './components/embedded-article/embedded
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    { provide:  ArticleService, useClass: ArticleService }
   ],
   bootstrap: [AppComponent]
 })

@@ -5,7 +5,6 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { YorinukiPage } from './yorinuki.page';
-import { ArticleComponent } from '../components/article/article.component';
 
 @NgModule({
   imports: [
@@ -16,14 +15,9 @@ import { ArticleComponent } from '../components/article/article.component';
       {
         path: '',
         component: YorinukiPage
-      },
-      {
-        path: 'article/:id',
-        component: ArticleComponent
       }
     ])
   ],
-  declarations: [YorinukiPage
-                       , ArticleComponent]
+  declarations: [YorinukiPage]
 })
 export class YorinukiPageModule {}

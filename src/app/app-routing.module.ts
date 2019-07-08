@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { ArticleComponent } from './components/article/article.component';
 
 const routes: Routes = [
   {
@@ -20,7 +21,10 @@ const routes: Routes = [
   { path: 'sagalist',
     loadChildren: './sagalist/sagalist.module#SagalistPageModule' },
   { path: 'ishimori-shotaro-letter',
-  loadChildren: './ishimori-shotaro-letter/ishimori-shotaro-letter.module#IshimoriShotaroLetterPageModule' }
+  loadChildren: './ishimori-shotaro-letter/ishimori-shotaro-letter.module#IshimoriShotaroLetterPageModule' },
+  {  path: 'article/:id', component: ArticleComponent  },
+  { path: 'koramudetails/:articleId/:articleTitle/:createdDate/:modifiedDate',
+    loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' }
 ];
 
 @NgModule({
