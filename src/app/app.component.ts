@@ -22,23 +22,35 @@ export class AppComponent {
       icon: 'cart',
       open: false
     } ,
+    // {
+    //   title: '雑誌よりぬき',
+    //   open: false,
+    //   icon: 'list',
+    //   children: [
+    //     {
+    //       title: '誌面キャプチャ・スクラップブック',
+    //       url: '/yorinuki',
+    //       icon: 'list'
+    //     } ,
+    //     {
+    //       title: '石森章太郎インタビュー記事',
+    //       url: '/ishimori-shotaro-letter',
+    //       icon: 'paper-plane'
+    //     }
+    //   ]
+    // } ,
     {
-      title: '雑誌よりぬき',
-      open: false,
+      title: '誌面キャプチャ・スクラップブック',
+      url: '/yorinuki',
       icon: 'list',
-      children: [
-        {
-          title: '誌面キャプチャ・スクラップブック',
-          url: '/yorinuki',
-          icon: 'list'
-        } ,
-        {
-          title: '石森章太郎インタビュー記事',
-          url: '/ishimori-shotaro-letter',
-          icon: 'paper-plane'
-        }
-      ]
+      open: false
     } ,
+    {
+      title: '石森章太郎インタビュー記事',
+      url: '/ishimori-shotaro-letter',
+      icon: 'paper-plane',
+      open: false
+    },
     {
       title: 'コラム',
       url: '/koramu',
