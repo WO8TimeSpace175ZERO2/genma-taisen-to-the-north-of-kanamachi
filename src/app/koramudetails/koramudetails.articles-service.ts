@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 
 
 @Injectable()
-export class KoramuArticlesService {
+export class KoramuDetailsArticlesService {
 
     constructor(private http: HttpClient) { }
 

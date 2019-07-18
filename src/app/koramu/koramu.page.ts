@@ -1,24 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
-import { KijiItem } from '../KijiItem';
+
 import { KijiItems } from '../KijiItems';
-import { KoramuArticlesService } from './koramu.articles-service';
+import { KijiItem } from '../KijiItem';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Component({
   providers: [
-    {
-      provide:  KoramuArticlesService, useClass: KoramuArticlesService
-    }
   ],
   selector: 'app-koramu',
   templateUrl: './koramu.page.html',
   styleUrls: ['./koramu.page.scss'],
 })
 export class KoramuPage implements OnInit {
-  // 動的にコラム記事一覧をRESTfulに取得するのは一時的にやめ
-  // kijiItemList$: Observable<KijiItem[]>;
+
   kijiItemList: KijiItem[] = [
     {
         kijiId: 'koramu001historya',
@@ -85,14 +81,9 @@ export class KoramuPage implements OnInit {
     }
   ];
 
-  constructor(private menuController: MenuController,  private koramuArticlesService: KoramuArticlesService) { }
+  constructor(private menuController: MenuController) { }
 
   ngOnInit() {
-    // this.kijiItemList$ = this.koramuArticlesService
-    //                           .getKoramuArticles('https://reverent-torvalds-1d6345.netlify.com/assets/json/koramus/koramus.json')
-    //                           .pipe(
-    //                             map(koramus => koramus.kijiItems)
-    //                           );
   }
 
   ionViewDidLeave() {
