@@ -6,6 +6,7 @@ import { Observable, from } from 'rxjs';
 import { map,  find } from 'rxjs/operators';
 import { KijiItem } from '../KijiItem';
 import { KoramuDetailsArticlesService } from './koramudetails.articles-service';
+import KijiItemsJson from '../const/koramus.json';
 
 @Component({
   providers: [
@@ -19,7 +20,8 @@ import { KoramuDetailsArticlesService } from './koramudetails.articles-service';
 })
 export class KoramudetailsPage implements OnInit {
   // 動的にRESTfulでコラム記事一覧から記事のタイトルと作成日と更新日を取得する。
-  kijiItem$: Observable<KijiItem>;
+  // kijiItem$: Observable<KijiItem>;
+  kijiItem: KijiItem;
 
   articleId = null;
   articleContent: Promise<SafeHtml>;
@@ -33,16 +35,19 @@ export class KoramudetailsPage implements OnInit {
     this.articleId = this.activatedRoute.snapshot.paramMap.get('articleId');
     // let kijiItemTmp: KijiItem = null;
     // let kijiItemList$: Observable<KijiItem[]> = null;
-    this.koramuDetailsArticlesService
-                              .getKoramuArticles('https://reverent-torvalds-1d6345.netlify.com/assets/json/koramus/koramus.json')
-                              .pipe(
-                                map(koramus => koramus.kijiItems),
-                              ).subscribe((kijiItems) => {
-                                this.kijiItem$ = from(kijiItems)
-                                                          .pipe(
-                                                            find((kijiItem) =>  kijiItem.kijiId === this.articleId)
-                                                          );
-                              });
+    // this.koramuDetailsArticlesService
+    //                           .getKoramuArticles('https://reverent-torvalds-1d6345.netlify.com/assets/json/koramus/koramus.json')
+    //                           .pipe(
+    //                             map(koramus => koramus.kijiItems),
+    //                           ).subscribe((kijiItems) => {
+    //                             this.kijiItem$ = from(kijiItems)
+    //                                                       .pipe(
+    //                                                         find((kijiItem) =>  kijiItem.kijiId === this.articleId)
+    //                                                       );
+    //                           });
+
+    this.kijiItem = KijiItemsJson.kijiItems.find((kijiItem) => kijiItem.kijiId === this.articleId);
+
     this.articleContent = this.articleService.retrieveArticleContent(this.articleId );
   }
 
