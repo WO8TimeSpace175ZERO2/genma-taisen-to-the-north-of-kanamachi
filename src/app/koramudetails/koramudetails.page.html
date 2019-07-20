@@ -28,20 +28,25 @@
 
 <ion-content padding>
     <ion-list>
-        <ion-list-header>
-            <ion-label>{{ articleTitle }}</ion-label>
-          </ion-list-header>
-          <ion-item >
-              <ion-icon slot="start" color="medium" name="calendar"></ion-icon>
-              <ion-label>
-                  <ion-text color="success">
-                      <h3> 新規作成日：{{createdDate}} </h3>
-                    </ion-text>
-                    <ion-text color="primary">
-                        <h5>更新日：{{modifiedDate}}</h5>
-                    </ion-text>
-              </ion-label>
-          </ion-item>
+          <div *ngIf="kijiItem; else progheader" >
+            
+            <ion-list-header>
+              <ion-label>{{kijiItem.title}}</ion-label>
+            </ion-list-header>
+            <ion-item >
+                <ion-icon slot="start" color="medium" name="calendar"></ion-icon>
+                <ion-label>
+                    <ion-text color="success">
+                        <h3> 新規作成日：{{kijiItem.createdDate}} </h3>
+                      </ion-text>
+                      <ion-text color="primary">
+                          <h5>更新日：{{kijiItem.modifiedDate}}</h5>
+                      </ion-text>
+                </ion-label>
+            </ion-item>
+
+          </div>
+          <ng-template #progheader>Now Loading Header ... </ng-template>
 
     </ion-list>
     <div class="article_box">

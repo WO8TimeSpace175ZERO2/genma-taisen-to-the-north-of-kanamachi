@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'ishimori-shotaro-letter',
   loadChildren: './ishimori-shotaro-letter/ishimori-shotaro-letter.module#IshimoriShotaroLetterPageModule' },
   {  path: 'article/:id', component: ArticleComponent  },
-  { path: 'koramudetails/:articleId/:articleTitle/:createdDate/:modifiedDate',
+  { path: 'koramudetails/:articleId',
     loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' }
 ];
 
