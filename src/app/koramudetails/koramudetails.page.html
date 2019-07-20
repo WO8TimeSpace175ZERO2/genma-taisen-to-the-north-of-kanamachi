@@ -28,7 +28,7 @@
 
 <ion-content padding>
     <ion-list>
-          <div *ngIf="kijiItem$|async as kijiItem; else progheader" >
+          <div *ngIf="kijiItem; else progheader" >
             
             <ion-list-header>
               <ion-label>{{kijiItem.title}}</ion-label>
