@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-kirinuki',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./kirinuki.component.scss'],
 })
 export class KirinukiComponent implements OnInit {
+
+  @Input() scrapbookId: string;
 
   constructor() { }
 
