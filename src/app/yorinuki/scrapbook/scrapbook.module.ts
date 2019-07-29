@@ -11,7 +11,6 @@ import { KirinukiComponent } from './kirinuki/kirinuki.component';
 
 
 
-
 const routes: Routes = [
   {
     path: '',
@@ -26,8 +25,9 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
+  entryComponents: [],
   exports: [],
-  declarations: [ScrapbookPage],
+  declarations: [ScrapbookPage,  KirinukiComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
     ]

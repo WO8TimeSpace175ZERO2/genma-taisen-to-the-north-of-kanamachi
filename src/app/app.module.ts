@@ -14,10 +14,9 @@ import { ArticleComponent } from './components/article/article.component';
 import { ModalShowArticleComponent } from './components/modal-show-article/modal-show-article.component';
 import { EmbeddedArticleComponent } from './components/embedded-article/embedded-article.component';
 import { ArticleService} from './components/article/article.service';
-import { KirinukiComponent } from './yorinuki/scrapbook/kirinuki/kirinuki.component';
 
 @NgModule({
-  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent, KirinukiComponent],
+  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
   entryComponents: [ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
   imports: [
     BrowserModule,
