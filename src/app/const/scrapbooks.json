@@ -1,0 +1,39 @@
+{
+	"kijiItems": [
+		{
+			"kijiId": "scrapbook001",
+			"title": "1979年春季 リュウ Vol1 拝啓・読者さま。",
+			"icon": "flask",
+			"createdDate": "2019年07月30日",
+			"modifiedDate": "2019年07月30日"
+		},
+		{
+			"kijiId": "scrapbook002",
+			"title": "1979年夏季 リュウ Vol2 全宇宙の破滅をめざすGENMA-WARSの謎",
+			"icon": "wifi",
+			"createdDate": "2019年07月30日",
+			"modifiedDate": "2019年07月30日"
+		},
+		{
+			"kijiId": "scrapbook003",
+			"title": "SFアドベンチャー1982年3月号 幻魔シリーズ大特集",
+			"icon": "beer",
+			"createdDate": "2019年07月30日",
+			"modifiedDate": "2019年07月30日"
+		},
+		{
+			"kijiId": "scrapbook004",
+			"title": "1982年秋季 SFアドベンチャー増刊 平井和正の幻魔宇宙 Ⅰ",
+			"icon": "football",
+			"createdDate": "2019年07月30日",
+			"modifiedDate": "2019年07月30日"
+		},
+		{
+			"kijiId": "scrapbook005",
+			"title": "ワールド・オブ・スパイダーバース (MARVEL)の一コマ",
+			"icon": "basketball",
+			"createdDate": "2019年07月30日",
+			"modifiedDate": "2019年07月30日"
+		}
+	]
+}

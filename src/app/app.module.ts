@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { RouteReuseStrategy } from '@angular/router';
@@ -14,16 +14,18 @@ import { ArticleComponent } from './components/article/article.component';
 import { ModalShowArticleComponent } from './components/modal-show-article/modal-show-article.component';
 import { EmbeddedArticleComponent } from './components/embedded-article/embedded-article.component';
 import { ArticleService} from './components/article/article.service';
+import { KirinukiComponent } from './yorinuki/scrapbook/kirinuki/kirinuki.component';
 
 @NgModule({
-  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
+  declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent, KirinukiComponent],
   entryComponents: [ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
   ],
+  exports: [],
   providers: [
     StatusBar,
     SplashScreen,

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { KijiItem } from '../KijiItem';
+import KijiItemsJson from '../const/scrapbooks.json';
 
 @Component({
   selector: 'app-list',
@@ -32,6 +33,8 @@ export class YorinukiPage implements OnInit {
       {title: 'ワールド・オブ・スパイダーバース (MARVEL)の一コマ',  icon: 'basketball',
       url: 'https://reverent-torvalds-1d6345.netlify.com/plainArticles/plainArticle-worldview05.html'}
   ];
+
+  public scrapBooks: KijiItem[] = KijiItemsJson.kijiItems ;
   constructor() {
     // for (let i = 1; i < 11; i++) {
     //   this.items.push({

@@ -20,6 +20,18 @@
     </ion-list>
 
   <ion-list>
+
+
+
+      <ion-menu-toggle auto-hide="false" *ngFor="let kiji of  scrapBooks">
+          <ion-item [routerDirection]="'forward'"  [routerLink]="[ '../scrapbook/' + kiji.kijiId ]">
+            <ion-icon slot="start" [name]="kiji.icon"></ion-icon>
+            <ion-label>
+              {{kiji.title}}
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
     <ion-item *ngFor="let kiji of items">
       <ion-icon [name]="kiji.icon" slot="start"></ion-icon>
       {{kiji.title}}
