@@ -15,11 +15,14 @@
           <div *ngIf="kijiItem; else progheader" >
             
             <ion-list-header>
-              <ion-label>スクラップブックID:{{scrapbookId}} {{kijiItem.title}}</ion-label>
+              <ion-label>{{kijiItem.title}}</ion-label>
             </ion-list-header>
             <ion-item >
                 <ion-icon slot="start" color="medium" name="calendar"></ion-icon>
                 <ion-label>
+                    <ion-text color="secondary">
+                        <h5>スクラップブックID：{{scrapbookId}}</h5>
+                    </ion-text>
                     <ion-text color="success">
                         <h3> 新規作成日：{{kijiItem.createdDate}} </h3>
                       </ion-text>
@@ -32,9 +35,12 @@
           </div>
           <ng-template #progheader>Now Loading Header ... </ng-template>
 
-          <div>
-            <app-kirinuki [scrapbookId]="scrapbookId"></app-kirinuki>
-            </div>
+          
+          <ion-item *ngFor="let kirinuki of  kirinukiList$ | async">
+              <app-kirinuki [kirinuki]="kirinuki"></app-kirinuki>
+          </ion-item>
+           
+          
 
 
 

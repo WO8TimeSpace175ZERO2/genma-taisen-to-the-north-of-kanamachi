@@ -8,6 +8,7 @@ import { IonicModule } from '@ionic/angular';
 import { ScrapbookPage } from './scrapbook.page';
 
 import { KirinukiComponent } from './kirinuki/kirinuki.component';
+import { KirinukiModalContentComponent } from './kirinuki-modal-content/kirinuki-modal-content.component';
 
 
 
@@ -25,9 +26,9 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  entryComponents: [],
+  entryComponents: [KirinukiModalContentComponent],
   exports: [],
-  declarations: [ScrapbookPage,  KirinukiComponent],
+  declarations: [ScrapbookPage,  KirinukiComponent, KirinukiModalContentComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
     ]
