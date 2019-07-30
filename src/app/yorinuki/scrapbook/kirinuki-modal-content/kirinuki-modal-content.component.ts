@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { NavParams } from '@ionic/angular';
+import { ImgStyle } from '../../../ImgStyle';
 
 @Component({
   selector: 'app-kirinuki-modal-content',
@@ -11,16 +12,14 @@ export class KirinukiModalContentComponent implements OnInit {
 
   @Input() enlargedImageURI: string;
   @Input() enlargedImageAlt: string;
-  @Input() enlargedImageHeight: string;
-  @Input() enlargedImageWidth: string;
+  @Input() enlargedImageStyle: ImgStyle;
+
 
 
   constructor(navParams: NavParams, public modalCtrl: ModalController) {
-    console.log('enlargedImageURI : ' + navParams.get('enlargedImageURI'));
     this.enlargedImageURI =  navParams.get('enlargedImageURI');
     this.enlargedImageAlt =  navParams.get('enlargedImageAlt');
-    this.enlargedImageHeight =  navParams.get('enlargedImageHeight');
-    this.enlargedImageWidth =  navParams.get('enlargedImageWidth');
+    this.enlargedImageStyle =  navParams.get('enlargedImageStyle');
    }
 
   ngOnInit() {}

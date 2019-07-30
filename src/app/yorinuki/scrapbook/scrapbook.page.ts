@@ -29,10 +29,7 @@ export class ScrapbookPage implements OnInit {
     this.kijiItem = KijiItemsJson.kijiItems.find((kijiItem) => kijiItem.kijiId === this.scrapbookId);
     this.kirinukiList$ = this.scrapbookKirinukiListService.getKirinukiList(this.kijiItem.url)
                                     .pipe(
-                                      map(kirinukiListJson => {
-                                        kirinukiListJson.kirinukiList.forEach(kirinuki => console.log(kirinuki.smallImageHeight));
-                                        return kirinukiListJson.kirinukiList;
-                                      })
+                                      map(kirinukiListJson => kirinukiListJson.kirinukiList)
                                     );
   }
 

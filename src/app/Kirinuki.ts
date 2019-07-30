@@ -1,3 +1,5 @@
+import { ImgStyle } from './ImgStyle';
+
 export class Kirinuki {
     public kirinukiId: string;
     public figureNo: string;
@@ -5,10 +7,8 @@ export class Kirinuki {
     public kirinukiDescription: string;
     public smallImageURL: string;
     public smallImageAlt: string;
-    public smallImageHeight: string;
-    public smallImageWidth: string;
+    public smallImageStyle: ImgStyle;
     public enlargedImageURL: string;
     public enlargedImageAlt: string;
-    public enlargedImageHeight: string;
-    public enlargedImageWidth: string;
+    public enlargedImageStyle: ImgStyle;
 }

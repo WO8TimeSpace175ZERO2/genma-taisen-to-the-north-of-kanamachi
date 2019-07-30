@@ -1,26 +1,24 @@
-<p>あいえうお {{kirinuki.smallImageHeight}}  {{kirinuki.smallImageWidth}}</p>
+
 
   <ion-grid>
 
-  <ion-row>
-      <ion-col size="2"></ion-col>
+  <ion-row nowrap>
       <ion-col>
-                      <img src="{{kirinuki.smallImageURL}}" alt="{{kirinuki.smallImageAlt}}"  />
+                      <img src="{{kirinuki.smallImageURL}}" alt="{{kirinuki.smallImageAlt}}"  [ngStyle]="kirinuki.smallImageStyle"    (click)="presentModal(kirinuki.enlargedImageURL, kirinuki.enlargedImageAlt, kirinuki.enlargedImageStyle)"    />
       </ion-col>
-      <ion-col size="2"><ion-button expand="block" (click)="presentModal(kirinuki.enlargedImageURL, kirinuki.enlargedImageAlt, kirinuki.enlargedImageHeight, kirinuki.enlargedImageWidth)" >拡大表示</ion-button></ion-col>
     </ion-row>
 
-    <ion-row>
+    <ion-row nowrap>
 
-        <ion-col>
+        <ion-col align-self-stretch>
                         {{kirinuki.kirinukiDescription}}
         </ion-col>
 
       </ion-row>
 
-    <ion-row  align-items-center>
-      <ion-col size="3">
-       figureNo {{kirinuki.figureNo}}
+    <ion-row  nowrap>
+      <ion-col>
+       図 {{kirinuki.figureNo}}
       </ion-col>
       <ion-col>
         {{kirinuki.kirinukiTitle}}
