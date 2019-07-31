@@ -24,7 +24,8 @@ const routes: Routes = [
   loadChildren: './ishimori-shotaro-letter/ishimori-shotaro-letter.module#IshimoriShotaroLetterPageModule' },
   {  path: 'article/:id', component: ArticleComponent  },
   { path: 'koramudetails/:articleId',
-    loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' }
+    loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' },
+  { path: 'scrapbook/:scrapbookId', loadChildren: './yorinuki/scrapbook/scrapbook.module#ScrapbookPageModule' }
 ];
 
 @NgModule({
