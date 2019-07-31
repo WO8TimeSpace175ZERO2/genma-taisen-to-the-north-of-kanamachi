@@ -15,11 +15,25 @@
 
     <ion-list lines="none">
         <ion-list-header>
-          <ion-label>このページのOPENボタンをクリックすると別Windowが起動します。</ion-label>
+          <ion-label>雑誌などの切り抜きをまとめたページ</ion-label>
         </ion-list-header>
     </ion-list>
 
   <ion-list>
+
+
+
+      <ion-menu-toggle auto-hide="false" *ngFor="let kiji of  scrapBooks">
+          <ion-item [routerDirection]="'forward'"  [routerLink]="[ '../scrapbook/' + kiji.kijiId ]">
+            <ion-thumbnail>
+              <img src="{{kiji.icon}}" />
+            </ion-thumbnail>
+            <ion-label>
+              {{kiji.shortTitle}}
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+<!--
     <ion-item *ngFor="let kiji of items">
       <ion-icon [name]="kiji.icon" slot="start"></ion-icon>
       {{kiji.title}}
@@ -27,6 +41,7 @@
         <ion-button color="warning" (click)="openLink(kiji.url)" >OPEN</ion-button>
       </div>
     </ion-item>
+-->
 
     <!-- <ion-menu-toggle auto-hide="false" *ngFor="let kiji of items">
       <ion-item  [routerLink]="[kiji.path]">

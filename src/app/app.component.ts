@@ -14,13 +14,15 @@ export class AppComponent {
       title: 'Home',
       url: '/home',
       icon: 'home',
-      open: false
+      open: false,
+      children: []
     },
     {
       title: '幻魔大戦サーガ一覧',
       url: '/sagalist',
       icon: 'cart',
-      open: false
+      open: false,
+      children: []
     } ,
     // {
     //   title: '雑誌よりぬき',
@@ -40,22 +42,25 @@ export class AppComponent {
     //   ]
     // } ,
     {
-      title: '誌面キャプチャ・スクラップブック',
+      title: '誌面スクラップブック',
       url: '/yorinuki',
       icon: 'list',
-      open: false
+      open: false,
+      children: []
     } ,
     {
       title: '石森章太郎インタビュー記事',
       url: '/ishimori-shotaro-letter',
       icon: 'paper-plane',
-      open: false
+      open: false,
+      children: []
     },
     {
       title: 'コラム',
       url: '/koramu',
       icon: 'list',
-      open: false
+      open: false,
+      children: []
     }
   ];
 
