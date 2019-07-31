@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 import { KijiItem } from '../KijiItem';
 import KijiItemsJson from '../const/scrapbooks.json';
 
@@ -35,7 +36,7 @@ export class YorinukiPage implements OnInit {
   ];
 
   public scrapBooks: KijiItem[] = KijiItemsJson.kijiItems ;
-  constructor() {
+  constructor(private menuController: MenuController) {
     // for (let i = 1; i < 11; i++) {
     //   this.items.push({
     //     title: 'Item ' + i,
@@ -56,4 +57,10 @@ export class YorinukiPage implements OnInit {
   // navigate(item) {
   //   this.router.navigate(['/list', JSON.stringify(item)]);
   // }
+
+  ionViewDidLeave() {
+    // console.log('★ionViewDidLeaveが呼ばれた');
+    this.menuController.close();
+  }
+
 }
