@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 import { ActivatedRoute } from '@angular/router';
 import { KijiItem } from '../../KijiItem';
 import KijiItemsJson from '../../const/scrapbooks.json';
@@ -22,7 +23,9 @@ export class ScrapbookPage implements OnInit {
   kijiItem: KijiItem;
   kirinukiList$: Observable<Kirinuki[]>;
 
-  constructor(private activatedRoute: ActivatedRoute, private scrapbookKirinukiListService: ScrapbookKirinukiListService) { }
+  constructor(private activatedRoute: ActivatedRoute,
+              private scrapbookKirinukiListService: ScrapbookKirinukiListService,
+              private menuController: MenuController) { }
 
   ngOnInit() {
     this.scrapbookId = this.activatedRoute.snapshot.paramMap.get('scrapbookId');
@@ -31,6 +34,11 @@ export class ScrapbookPage implements OnInit {
                                     .pipe(
                                       map(kirinukiListJson => kirinukiListJson.kirinukiList)
                                     );
+  }
+
+  ionViewDidLeave() {
+    // console.log('★ionViewDidLeaveが呼ばれた');
+    this.menuController.close();
   }
 
 }
