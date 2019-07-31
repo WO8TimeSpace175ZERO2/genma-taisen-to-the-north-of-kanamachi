@@ -61,7 +61,15 @@ export class AppComponent {
       icon: 'list',
       open: false,
       children: []
+    },
+    {
+      title: '自己紹介・問い合わせ先',
+      url: '/self-intro',
+      icon: 'mail',
+      open: false,
+      children: []
     }
+
   ];
 
   constructor(
