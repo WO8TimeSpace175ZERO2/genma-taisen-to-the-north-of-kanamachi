@@ -25,7 +25,8 @@ const routes: Routes = [
   {  path: 'article/:id', component: ArticleComponent  },
   { path: 'koramudetails/:articleId',
     loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' },
-  { path: 'scrapbook/:scrapbookId', loadChildren: './yorinuki/scrapbook/scrapbook.module#ScrapbookPageModule' }
+  { path: 'scrapbook/:scrapbookId', loadChildren: './yorinuki/scrapbook/scrapbook.module#ScrapbookPageModule' },
+  { path: 'self-intro', loadChildren: './self-intro/self-intro.module#SelfIntroPageModule' }
 ];
 
 @NgModule({
