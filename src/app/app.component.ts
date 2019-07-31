@@ -42,7 +42,7 @@ export class AppComponent {
     //   ]
     // } ,
     {
-      title: '誌面キャプチャ・スクラップブック',
+      title: '誌面スクラップブック',
       url: '/yorinuki',
       icon: 'list',
       open: false,

@@ -2,6 +2,11 @@
 
   <ion-grid>
 
+    <ion-row  nowrap>
+      <ion-col>
+        {{kirinuki.kirinukiTitle}}
+      </ion-col>
+    </ion-row>  
   <ion-row nowrap>
       <ion-col>
                       <img src="{{kirinuki.smallImageURL}}" alt="{{kirinuki.smallImageAlt}}"  [ngStyle]="kirinuki.smallImageStyle"    (click)="presentModal(kirinuki.enlargedImageURL, kirinuki.enlargedImageAlt, kirinuki.enlargedImageStyle)"    />
@@ -19,9 +24,6 @@
     <ion-row  nowrap>
       <ion-col>
        図 {{kirinuki.figureNo}}
-      </ion-col>
-      <ion-col>
-        {{kirinuki.kirinukiTitle}}
       </ion-col>
     </ion-row>  
 
