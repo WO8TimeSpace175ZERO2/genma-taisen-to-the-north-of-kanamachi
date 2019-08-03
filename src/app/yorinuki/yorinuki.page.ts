@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
 import { KijiItem } from '../KijiItem';
 import KijiItemsJson from '../const/scrapbooks.json';
+import { PageService } from '../services/page.service';
 
 @Component({
   selector: 'app-list',
@@ -36,7 +37,8 @@ export class YorinukiPage implements OnInit {
   // ];
 
   public scrapBooks: KijiItem[] = KijiItemsJson.kijiItems ;
-  constructor(private menuController: MenuController) {
+  constructor(private menuController: MenuController,
+              private pageSvc: PageService) {
     // for (let i = 1; i < 11; i++) {
     //   this.items.push({
     //     title: 'Item ' + i,
@@ -47,6 +49,11 @@ export class YorinukiPage implements OnInit {
   }
 
   ngOnInit() {
+    const title = '幻魔大戦ネタで誌面キャプチャ・スクラップブック';
+    // tslint:disable-next-line:max-line-length
+    const metaDesc = '平井和正や石森章太郎のインタビュー記事など幻魔大戦に関する雑誌の記事など | 日本初のIonic/Angular製幻魔大戦ブログSPA。幻魔大戦 平井和正 石ノ森章太郎 石森章太郎  #幻魔大戦 #平井和正 #石森章太郎 #石ノ森章太郎';
+    const metaImg = 'https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg';
+    this.pageSvc.setPage({ title, metaDesc, metaImg });
   }
 
   openLink(uri: string) {
