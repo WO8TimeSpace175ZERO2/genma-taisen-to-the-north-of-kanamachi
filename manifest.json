@@ -1,0 +1,14 @@
+{
+  "name": "金町の北上で幻魔大戦を叫んだけもの",
+  "author": "WO8TimeSpace175ZERO2@hexagonminer",
+  "short_name": "金町幻魔大戦",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/icon/genma-wars-logo.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }],
+  "background_color": "#333333",
+  "theme_color": "#333333"
+}
