@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /self-intro
+Sitemap: https://reverent-torvalds-1d6345.netlify.com/assets/sitemaps/sitemap01pc.xml
+Sitemap: https://reverent-torvalds-1d6345.netlify.com/assets/sitemaps/sitemap02mobile.xml
