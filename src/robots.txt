@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /self-intro
 Sitemap: https://eager-kilby-e6c21f.netlify.com/sitemap01pc.xml
 Sitemap: https://eager-kilby-e6c21f.netlify.com/sitemap02mobile.xml
