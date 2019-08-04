@@ -20,6 +20,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
+              "src/robots.txt",
+              "src/_redirects",
               {
                 "glob": "**/*",
                 "input": "src/assets",

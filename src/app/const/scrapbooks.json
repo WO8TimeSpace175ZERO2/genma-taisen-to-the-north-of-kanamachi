@@ -1,1 +1,59 @@
-{"kijiItems":[{"kijiId":"scrapbook001","title":"徳間書店 1979年春季 リュウ Vol1 石森章太郎からのメッセージ","shortTitle":"石森章太郎からのメッセージ(1979年春)","icon":"https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0001/sb0001-000.jpg","createdDate":"2019年07月31日","modifiedDate":"2019年07月31日","url":"https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0001-kirinuki-list.json"},{"kijiId":"scrapbook002","title":"1979年夏季 リュウ Vol2 全宇宙の破滅をめざすGENMA-WARSの謎","shortTitle":"石森章太郎・平井和正・永井豪座談会","icon":"https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0002/sb0002-000.jpg","createdDate":"2019年07月31日","modifiedDate":"2019年07月31日","url":"https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0002-kirinuki-list.json"},{"kijiId":"scrapbook003","title":"SFアドベンチャー1982年3月号 幻魔シリーズ大特集","shortTitle":"幻魔シリーズ大特集","icon":"https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0003/sb0003-000.jpg","createdDate":"2019年07月31日","modifiedDate":"2019年07月31日","url":"https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0003-kirinuki-list.json"},{"kijiId":"scrapbook004","title":"1982年秋季 SFアドベンチャー増刊 平井和正の幻魔宇宙 Ⅰ","shortTitle":"幻魔大戦相関図","icon":"https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0004/sb0004-000.jpg","createdDate":"2019年07月31日","modifiedDate":"2019年07月31日","url":"https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0004-kirinuki-list.json"},{"kijiId":"scrapbook005","title":"ワールド・オブ・スパイダーバース (MARVEL)の一コマ","shortTitle":"MARVELと隣接する幻魔大戦","icon":"https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0005/sb0005-000.jpg","createdDate":"2019年07月31日","modifiedDate":"2019年07月31日","url":"https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0005-kirinuki-list.json"}]}
+{
+	"kijiItems": [
+		{
+			"kijiId": "scrapbook001",
+			"title": "徳間書店 1979年春季 リュウ Vol1 石森章太郎からのメッセージ",
+			"shortTitle": "石森章太郎からのメッセージ(1979年春)",
+			"note": "徳間書店 1979年春季 リュウ Vol1 幻魔大戦連載開始特集「石森章太郎からのメッセージ 拝啓・読者さま。」掲載記事キャプチャ",
+			"icon": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0001/sb0001-000.jpg",
+			"createdDate": "2019年07月31日",
+			"modifiedDate": "2019年07月31日",
+			"url": "https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0001-kirinuki-list.json",
+			"metaImageUrl": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0001/sb0001-000.jpg"
+		},
+		{
+			"kijiId": "scrapbook002",
+			"title": "1979年夏季 リュウ Vol2 全宇宙の破滅をめざすGENMA-WARSの謎",
+			"shortTitle": "石森章太郎・平井和正・永井豪座談会",
+			"note": "徳間書店 1979年夏季 リュウ Vol2 全宇宙の破滅をめざすGENMA-WARSの謎　掲載記事キャプチャ",
+			"icon": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0002/sb0002-000.jpg",
+			"createdDate": "2019年07月31日",
+			"modifiedDate": "2019年07月31日",
+			"url": "https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0002-kirinuki-list.json",
+			"metaImageUrl": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0002/sb0002-000.jpg"
+		},
+		{
+			"kijiId": "scrapbook003",
+			"title": "SFアドベンチャー1982年3月号 幻魔シリーズ大特集",
+			"shortTitle": "幻魔シリーズ大特集",
+			"note": "徳間書店 SFアドベンチャー1982年3月号 幻魔シリーズ大特集　世界観に関する掲載記事",
+			"icon": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0003/sb0003-000.jpg",
+			"createdDate": "2019年07月31日",
+			"modifiedDate": "2019年07月31日",
+			"url": "https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0003-kirinuki-list.json",
+			"metaImageUrl": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0003/sb0003-000.jpg"
+		},
+		{
+			"kijiId": "scrapbook004",
+			"title": "1982年秋季 SFアドベンチャー増刊 平井和正の幻魔宇宙 Ⅰ",
+			"shortTitle": "幻魔大戦相関図",
+			"note": "徳間書店 1982年秋季 SFアドベンチャー増刊 平井和正の幻魔宇宙 幻魔大戦相関図 記事",
+			"icon": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0004/sb0004-000.jpg",
+			"createdDate": "2019年07月31日",
+			"modifiedDate": "2019年07月31日",
+			"url": "https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0004-kirinuki-list.json",
+			"metaImageUrl": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0004/sb0004-000.jpg"
+		},
+		{
+			"kijiId": "scrapbook005",
+			"title": "ワールド・オブ・スパイダーバース (MARVEL)の一コマ",
+			"shortTitle": "MARVELと隣接する幻魔大戦",
+			"note": "幻魔大戦 Rebirth 第5巻 「見知らぬ世界」編は池上遼一版スパイダーマンと関係しているという話",
+			"icon": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0005/sb0005-000.jpg",
+			"createdDate": "2019年07月31日",
+			"modifiedDate": "2019年07月31日",
+			"url": "https://reverent-torvalds-1d6345.netlify.com/assets/json/scrapbook-kirinuki-lists/scrabbook0005-kirinuki-list.json",
+			"metaImageUrl": "https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0005/sb0005-000.jpg"
+		}
+	]
+}

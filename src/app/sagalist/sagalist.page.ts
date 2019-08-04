@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SagalistBookService } from './sagalist.book-service';
+import { PageService } from '../services/page.service';
 import { SagaSeries } from './saga-series';
 import { SagaBook } from './saga-book';
 import { Observable } from 'rxjs';
@@ -20,9 +21,15 @@ export class SagalistPage implements OnInit {
   series2$: Observable<SagaBook[]>;
   series3$: Observable<SagaBook[]>;
   series4$: Observable<SagaBook[]>;
-  constructor(private sagalistBookService: SagalistBookService) { }
+  constructor(private sagalistBookService: SagalistBookService,
+              private pageSvc: PageService) { }
 
   ngOnInit() {
+    const title = '幻魔大戦サーガ一覧';
+    const metaDesc = '幻魔大戦シリーズ作品一覧';
+    const metaImg = 'https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg';
+    this.pageSvc.setPage({ title, metaDesc, metaImg });
+
     this.series1$ = this.sagalistBookService.getSagaSeries('https://reverent-torvalds-1d6345.netlify.com/assets/json/books/series1.json')
                               .pipe(
                                 map(sagaSeries => sagaSeries.books)
