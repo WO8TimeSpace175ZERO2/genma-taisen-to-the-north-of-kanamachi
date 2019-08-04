@@ -7,7 +7,8 @@ import { ActivatedRoute, Router } from '@angular/router';
   providedIn: 'root'
 })
 export class PageService {
-  public readonly postfix = ' | 金町の北上で幻魔大戦を叫んだけもの';
+  public readonly postfixTitle = '金町の北上で幻魔大戦を叫んだけもの';
+  public readonly postfixDescription = '日本初のIonic/Angular製モバイルファースト（スマホ対応SPA）幻魔大戦ブログ。幻魔大戦 平井和正 石ノ森章太郎 石森章太郎  #幻魔大戦 #平井和正 #石森章太郎 #石ノ森章太郎';
 
 
   constructor(
@@ -19,23 +20,25 @@ export class PageService {
   setPage(config: {
     title?: string;
     skipTitlePostfix?: boolean;
+    skipDescPostfix?: boolean;
     metaDesc?: string;
     metaImg?: string;
   }) {
-    const postfix = config.skipTitlePostfix ? '' : this.postfix;
+    const postfixTitle = config.skipTitlePostfix ? null : this.postfixTitle;
+    const postfixDesc = config.skipDescPostfix ? null : this.postfixDescription;
 
     this.meta.updateTag({ property: 'og:url', content: this.getCurrentPath() });
 
-    if (config.title) {
-      const title = config.title + postfix;
-      this.title.setTitle(title);
-      this.meta.updateTag({ property: 'og:title', content: title });
-    }
+    // titleの設定
+    const title = (!config.title ? '' : config.title)  + ( config.title ? ' | '  : ''  ) + ( !postfixTitle ?  ''  :   postfixTitle );
+    this.title.setTitle(title);
+    this.meta.updateTag({ property: 'og:title', content: title });
 
-    if (config.metaDesc) {
-      this.meta.updateTag({ name: 'description', content: config.metaDesc });
-      this.meta.updateTag({ property: 'og:description', content: config.metaDesc });
-    }
+   // descriptionの設定
+    const description = (!config.metaDesc ? '' : config.metaDesc) + (config.metaDesc ? ' | ' : '' ) + ( !postfixDesc ? '' : postfixDesc );
+    this.meta.updateTag({ name: 'description', content: description   });
+    this.meta.updateTag({ property: 'og:description', content: description });
+
 
     if (config.metaImg) {
       this.meta.updateTag({ property: 'og:image', content: config.metaImg });

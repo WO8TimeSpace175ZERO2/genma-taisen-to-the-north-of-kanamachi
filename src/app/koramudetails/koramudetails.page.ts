@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ArticleService} from '../components/article/article.service';
+import { PageService } from '../services/page.service';
 import { SafeHtml } from '@angular/platform-browser';
 import { Observable, from } from 'rxjs';
 import { map,  find } from 'rxjs/operators';
@@ -27,7 +28,8 @@ export class KoramudetailsPage implements OnInit {
   articleContent: Promise<SafeHtml>;
   constructor(private activatedRoute: ActivatedRoute ,
               private articleService: ArticleService,
-              private koramuDetailsArticlesService: KoramuDetailsArticlesService) {
+              private koramuDetailsArticlesService: KoramuDetailsArticlesService,
+              private pageSvc: PageService) {
     }
 
   ngOnInit() {
@@ -47,6 +49,10 @@ export class KoramudetailsPage implements OnInit {
     //                           });
 
     this.kijiItem = KijiItemsJson.kijiItems.find((kijiItem) => kijiItem.kijiId === this.articleId);
+    const title = this.kijiItem.title;
+    const metaDesc =  this.kijiItem.note;
+    const metaImg = this.kijiItem.metaImageUrl;
+    this.pageSvc.setPage({ title, metaDesc, metaImg });
 
     this.articleContent = this.articleService.retrieveArticleContent(this.articleId );
   }

@@ -25,7 +25,7 @@ export class KoramuPage implements OnInit {
   ngOnInit() {
     const title = 'コラム一覧';
     // tslint:disable-next-line:max-line-length
-    const metaDesc = 'WO8TimeSpace175ZERO2@hexagonminerが幻魔大戦などに関し自己主張しまくるブログ | 日本初のIonic/Angular製幻魔大戦ブログSPA。幻魔大戦 平井和正 石ノ森章太郎 石森章太郎  #幻魔大戦 #平井和正 #石森章太郎 #石ノ森章太郎';
+    const metaDesc = 'WO8TimeSpace175ZERO2@hexagonminerが幻魔大戦などに関し自己主張しまくるブログ';
     const metaImg = 'https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg';
     this.pageSvc.setPage({ title, metaDesc, metaImg });
   }
