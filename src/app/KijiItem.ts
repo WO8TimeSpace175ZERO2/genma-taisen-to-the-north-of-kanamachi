@@ -6,6 +6,7 @@ export class KijiItem {
     public icon?: string;
     public path?: string;
     public url?: string;
+    public metaImageUrl?: string;
     public createdDate?: string;
     public modifiedDate?: string;
 }
