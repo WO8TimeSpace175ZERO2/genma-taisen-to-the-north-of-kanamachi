@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-mobile/1.0 http://www.google.com/schemas/sitemap-mobile/1.0/sitemap-mobile.xsd">
+	<!--第1階層-->
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/</loc>
+		<priority>1.00</priority>
+		<mobile:mobile />
+	</url>
+	<!--第2階層-->
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/home</loc>
+		<priority>0.80</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/sagalist</loc>
+		<priority>0.80</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/yorinuki</loc>
+		<priority>0.80</priority>
+		<mobile:mobile />
+	</url>
+
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramu</loc>
+		<priority>0.80</priority>
+		<mobile:mobile />
+	</url>
+
+</urlset>
