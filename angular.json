@@ -23,6 +23,8 @@
               "src/robots.txt",
               "src/_redirects",
               "src/google410f947e31624e53.html",
+              "src/sitemap01pc.xml",
+              "src/sitemap02mobile.xml",
               {
                 "glob": "**/*",
                 "input": "src/assets",
