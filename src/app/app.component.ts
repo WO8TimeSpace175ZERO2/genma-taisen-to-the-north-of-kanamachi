@@ -68,6 +68,13 @@ export class AppComponent {
       icon: 'mail',
       open: false,
       children: []
+    },
+    {
+      title: 'LinkCollection',
+      url: '/linkcol',
+      icon: 'filing',
+      open: false,
+      children: []
     }
 
   ];
