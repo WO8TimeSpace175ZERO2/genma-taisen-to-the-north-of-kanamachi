@@ -89,4 +89,19 @@
 		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu005howtoread</loc>
 		<priority>0.30</priority>
 	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu006vega</loc>
+		<priority>0.30</priority>
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu007morimasaru</loc>
+		<priority>0.30</priority>
+	</url>
+	
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/assets/hide-link-col.html</loc>
+		<priority>0.30</priority>
+	</url>
+	
 </urlset>
