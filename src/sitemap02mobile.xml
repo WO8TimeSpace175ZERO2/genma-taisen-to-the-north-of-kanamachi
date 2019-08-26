@@ -23,11 +23,123 @@
 		<priority>0.80</priority>
 		<mobile:mobile />
 	</url>
-
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/ishimori-shotaro-letter</loc>
+		<priority>0.50</priority>
+		<mobile:mobile />
+	</url>
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/koramu</loc>
 		<priority>0.80</priority>
 		<mobile:mobile />
 	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/linkcol</loc>
+		<priority>0.50</priority>
+		<mobile:mobile />
+	</url>
+	<!--第3階層 スクラップブック-->
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook001</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook002</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook003</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook004</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook005</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<!--第3階層 コラム-->
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu001historya</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu001historyb</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu001historyc</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu001historyd</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu001historye</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu002callkadokawa</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu003motoneta001</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu004motoneta002</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu005howtoread</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu006vega</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu007morimasaru</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu008motoneta007</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu009motoneta008</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu010motoneta009</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu011ohrai20190823</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+
 
 </urlset>
