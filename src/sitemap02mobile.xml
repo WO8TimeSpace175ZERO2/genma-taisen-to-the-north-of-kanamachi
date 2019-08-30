@@ -140,6 +140,10 @@
 		<priority>0.30</priority>
 		<mobile:mobile />
 	</url>
-
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu012kansou20190830</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
 
 </urlset>
