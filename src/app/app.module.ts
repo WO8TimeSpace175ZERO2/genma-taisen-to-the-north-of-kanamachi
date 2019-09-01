@@ -14,6 +14,8 @@ import { ArticleComponent } from './components/article/article.component';
 import { ModalShowArticleComponent } from './components/modal-show-article/modal-show-article.component';
 import { EmbeddedArticleComponent } from './components/embedded-article/embedded-article.component';
 import { ArticleService} from './components/article/article.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent, ModalShowArticleComponent, EmbeddedArticleComponent, ArticleComponent],
@@ -23,6 +25,7 @@ import { ArticleService} from './components/article/article.service';
     HttpClientModule,
     IonicModule.forRoot(),
     AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   exports: [],
   providers: [
