@@ -52,6 +52,10 @@
 		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook005</loc>
 		<priority>0.30</priority>
 	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook006</loc>
+		<priority>0.30</priority>
+	</url>
 	<!--第3階層 コラム-->
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu001historya</loc>
@@ -115,6 +119,10 @@
 	</url>
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu012kansou20190830</loc>
+		<priority>0.30</priority>
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu013motoneta010</loc>
 		<priority>0.30</priority>
 	</url>
 	<url>
