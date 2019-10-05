@@ -4,13 +4,12 @@ import { KijiItems } from '../KijiItems';
 import { KijiItem } from '../KijiItem';
 import { Observable } from 'rxjs';
 import { map , tap} from 'rxjs/operators';
-import { IconMap } from '@ionic/core/dist/ionic/svg';
+
 
 
 @Injectable()
 export class LinkColRetrieveService {
 
-    private iconNameVarTest: keyof typeof IconMap = 'ion-flask'; // IFのメタ情報をjsオブジェクトに落とせない
     private icons = [
         'add-circle-outline',
         'add-circle',
