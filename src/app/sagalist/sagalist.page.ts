@@ -30,22 +30,22 @@ export class SagalistPage implements OnInit {
     const metaImg = 'https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg';
     this.pageSvc.setPage({ title, metaDesc, metaImg });
 
-    this.series1$ = this.sagalistBookService.getSagaSeries('https://reverent-torvalds-1d6345.netlify.com/assets/json/books/series1.json')
+    this.series1$ = this.sagalistBookService.getSagaSeries('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/books/series1.json')
                               .pipe(
                                 map(sagaSeries => sagaSeries.books)
                               );
 
-    this.series2$ = this.sagalistBookService.getSagaSeries('https://reverent-torvalds-1d6345.netlify.com/assets/json/books/series2.json')
+    this.series2$ = this.sagalistBookService.getSagaSeries('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/books/series2.json')
                               .pipe(
                                 map(sagaSeries => sagaSeries.books)
                               );
 
-    this.series3$ = this.sagalistBookService.getSagaSeries('https://reverent-torvalds-1d6345.netlify.com/assets/json/books/series3.json')
+    this.series3$ = this.sagalistBookService.getSagaSeries('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/books/series3.json')
                               .pipe(
                                 map(sagaSeries => sagaSeries.books)
                               );
 
-    this.series4$ = this.sagalistBookService.getSagaSeries('https://reverent-torvalds-1d6345.netlify.com/assets/json/books/series4.json')
+    this.series4$ = this.sagalistBookService.getSagaSeries('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/books/series4.json')
                               .pipe(
                                 map(sagaSeries => sagaSeries.books)
                               );

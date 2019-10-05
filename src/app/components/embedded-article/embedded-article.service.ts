@@ -19,7 +19,7 @@ export class EmbeddedArticleService {
     // articleContent = null;
     let safeHtml: SafeHtml = null;
     // tslint:disable-next-line:max-line-length
-    safeHtml = await this.httpClient.get('https://reverent-torvalds-1d6345.netlify.com/plainArticles/plainArticle-' + articleId + '.html', { responseType: 'text' })
+    safeHtml = await this.httpClient.get('https://wo8timespace175zero2.github.io/kgw-rsrc/plainArticles/plainArticle-' + articleId + '.html', { responseType: 'text' })
                                                             .toPromise();
     // console.log(`記事ID:${articleId}★★ \n ${safeHtml}` );
 

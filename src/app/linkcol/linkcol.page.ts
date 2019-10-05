@@ -25,7 +25,7 @@ export class LinkcolPage implements OnInit {
     const metaDesc = '平井和正や幻魔大戦に関する外部サイトのアクセス先を収集';
     this.pageSvc.setPage({ title, metaDesc });
 
-    this.linkcol$ = this.linkColRetrieveService.getLinkCol('https://reverent-torvalds-1d6345.netlify.com/assets/json/linkcol/linkcol.json');
+    this.linkcol$ = this.linkColRetrieveService.getLinkCol('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/linkcol/linkcol.json');
   }
 
   openLink(uri: string) {

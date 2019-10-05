@@ -20,7 +20,7 @@ export class ArticleService {
     let tmpPromise: Promise<SafeHtml> = null;
     let safeHtml: SafeHtml = null;
     // tslint:disable-next-line:max-line-length
-    tmpPromise = this.httpClient.get('https://reverent-torvalds-1d6345.netlify.com/plainArticles/plainArticle-' + articleId + '.html', { responseType: 'text' })
+    tmpPromise = this.httpClient.get('https://wo8timespace175zero2.github.io/kgw-rsrc/plainArticles/plainArticle-' + articleId + '.html', { responseType: 'text' })
                                                             .toPromise();
     try {
       safeHtml = await tmpPromise;
