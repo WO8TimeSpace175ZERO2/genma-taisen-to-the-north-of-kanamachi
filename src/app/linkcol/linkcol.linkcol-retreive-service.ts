@@ -362,12 +362,16 @@ export class LinkColRetrieveService {
             map(linkCollectionJson =>  linkCollectionJson.kijiItems)
         );
         linkColStr = linkColStr.pipe(
-            tap(kijiItems =>  kijiItems.forEach(kijiItem => kijiItem.icon = this.getRandomIcon(kijiItem.kijiId)))
+            tap(kijiItems =>  kijiItems.forEach(kijiItem => {
+                if (!kijiItem.icon) {
+                    kijiItem.icon = this.getRandomIcon();
+                }
+            }))
         );
         return linkColStr;
     }
 
-   private  getRandomIcon(kijiId: string) {
+   private  getRandomIcon() {
         // const idxA = (kijiId as unknown as number) % this.icons.length;
         const subIcons = this.getIcons();
         const idxB = Math.floor(Math.random() * subIcons.length);

@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { PageService } from '../services/page.service';
 import { KijiItem } from '../KijiItem';
 import { LinkColRetrieveService } from './linkcol.linkcol-retreive-service';
+import LinkcolJson from '../const/linkcol.json';
 
 @Component({
   providers: [
@@ -14,6 +15,7 @@ import { LinkColRetrieveService } from './linkcol.linkcol-retreive-service';
 })
 export class LinkcolPage implements OnInit {
   public linkcol$: Observable<KijiItem[]>  ;
+  public linkcolArray: KijiItem[] = LinkcolJson.kijiItems;
 
 
   constructor(private linkColRetrieveService: LinkColRetrieveService,
@@ -25,7 +27,8 @@ export class LinkcolPage implements OnInit {
     const metaDesc = '平井和正や幻魔大戦に関する外部サイトのアクセス先を収集';
     this.pageSvc.setPage({ title, metaDesc });
 
-    this.linkcol$ = this.linkColRetrieveService.getLinkCol('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/linkcol/linkcol.json');
+    // tslint:disable-next-line:max-line-length
+    // this.linkcol$ = this.linkColRetrieveService.getLinkCol('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/linkcol/linkcol.json');
   }
 
   openLink(uri: string) {
