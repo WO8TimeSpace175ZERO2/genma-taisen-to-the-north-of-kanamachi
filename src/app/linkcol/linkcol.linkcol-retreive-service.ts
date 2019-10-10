@@ -4,13 +4,12 @@ import { KijiItems } from '../KijiItems';
 import { KijiItem } from '../KijiItem';
 import { Observable } from 'rxjs';
 import { map , tap} from 'rxjs/operators';
-import { IconMap } from '@ionic/core/dist/ionic/svg';
+
 
 
 @Injectable()
 export class LinkColRetrieveService {
 
-    private iconNameVarTest: keyof typeof IconMap = 'ion-flask'; // IFのメタ情報をjsオブジェクトに落とせない
     private icons = [
         'add-circle-outline',
         'add-circle',
@@ -363,12 +362,16 @@ export class LinkColRetrieveService {
             map(linkCollectionJson =>  linkCollectionJson.kijiItems)
         );
         linkColStr = linkColStr.pipe(
-            tap(kijiItems =>  kijiItems.forEach(kijiItem => kijiItem.icon = this.getRandomIcon(kijiItem.kijiId)))
+            tap(kijiItems =>  kijiItems.forEach(kijiItem => {
+                if (!kijiItem.icon) {
+                    kijiItem.icon = this.getRandomIcon();
+                }
+            }))
         );
         return linkColStr;
     }
 
-   private  getRandomIcon(kijiId: string) {
+   private  getRandomIcon() {
         // const idxA = (kijiId as unknown as number) % this.icons.length;
         const subIcons = this.getIcons();
         const idxB = Math.floor(Math.random() * subIcons.length);

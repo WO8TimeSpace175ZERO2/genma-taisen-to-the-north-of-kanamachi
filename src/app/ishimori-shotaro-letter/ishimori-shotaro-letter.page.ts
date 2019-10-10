@@ -28,7 +28,7 @@ export class IshimoriShotaroLetterPage implements OnInit {
     // tslint:disable-next-line:max-line-length
     const metaDesc = '徳間書店 1979年春季 リュウ Vol1 幻魔大戦連載開始特集「石森章太郎からのメッセージ 拝啓・読者さま。」にて石森章太郎が1979年春の新作・リュウ掲載版幻魔大戦の意気込みについて語ったインタビュー記事をテキスト起こししたもの';
     // Twitter Cardに使用する画像は自サイトである必要が無い。
-    const metaImg = 'https://reverent-torvalds-1d6345.netlify.com/assets/scrapbook0001/sb0001-005.jpg';
+    const metaImg = 'https://wo8timespace175zero2.github.io/kgw-rsrc/assets/scrapbooks_a/scrapbook0001/sb0001-005.jpg';
     this.pageSvc.setPage({ title, metaDesc, metaImg });
 
     // console.log(`articleId ${this.articleId} EmbeddedArticleComponent#ngOnInit()`);
