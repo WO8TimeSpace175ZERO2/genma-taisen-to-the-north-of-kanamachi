@@ -32,7 +32,7 @@ export class IshimoriShotaroLetterPage implements OnInit {
     this.pageSvc.setPage({ title, metaDesc, metaImg });
 
     // console.log(`articleId ${this.articleId} EmbeddedArticleComponent#ngOnInit()`);
-    this.articleContent = this.embeddedArticleService.retrieveArticleContent(this.articleId);
+    // this.articleContent = this.embeddedArticleService.retrieveArticleContent(this.articleId);
   }
 
 }
