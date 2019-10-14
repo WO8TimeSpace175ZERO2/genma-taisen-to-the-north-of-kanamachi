@@ -155,5 +155,74 @@
 		<priority>0.30</priority>
 		<mobile:mobile />
 	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu013motoneta010</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu014tanihoui</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+
+
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu016preaching20170212</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu017preaching20180311a</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu017preaching20180311b</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu017preaching20180311c</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu018preaching20180729a</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu019preaching20180721a</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu019preaching20180721b</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu019preaching20180721c</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu020preaching-conclusion</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+
+
 
 </urlset>
