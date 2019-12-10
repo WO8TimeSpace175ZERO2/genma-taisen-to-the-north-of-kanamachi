@@ -170,7 +170,16 @@
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu020preaching-conclusion</loc>
 		<priority>0.30</priority>
-	</url>	
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu021AQUOS8K8MAN</loc>
+		<priority>0.30</priority>
+	</url>
+	<url>
+		<loc>http://eager-kilby-e6c21f.netlify.com/koramudetails/koramu022conclusionPoem</loc>
+		<priority>0.30</priority>
+	</url>
+	
 	
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/assets/hide-link-col.html</loc>
