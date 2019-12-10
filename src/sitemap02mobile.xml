@@ -227,6 +227,16 @@
 		<priority>0.30</priority>
 		<mobile:mobile />
 	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu021AQUOS8K8MAN</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
+	<url>
+		<loc>http://eager-kilby-e6c21f.netlify.com/koramudetails/koramu022conclusionPoem</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
 
 
 
