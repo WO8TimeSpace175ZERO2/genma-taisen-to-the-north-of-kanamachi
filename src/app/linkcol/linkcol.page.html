@@ -21,5 +21,12 @@
       <ion-button color="warning" (click)="openLink(kiji.url)" >OPEN</ion-button>
     </div>
   </ion-item>
+  <ion-item *ngFor="let kiji2 of ( linkcol$ | async )">
+    <a href="{{kiji2.url}}"   target="_blank"><ion-icon [name]="kiji2.icon" slot="start"></ion-icon></a>
+    {{kiji2.title}}
+    <div class="item-note" slot="end">
+      <ion-button color="warning" (click)="openLink(kiji2.url)" >OPEN</ion-button>
+    </div>
+  </ion-item>
 </ion-list>
 </ion-content>
