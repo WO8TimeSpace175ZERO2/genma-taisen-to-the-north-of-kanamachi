@@ -28,7 +28,7 @@ export class LinkcolPage implements OnInit {
     this.pageSvc.setPage({ title, metaDesc });
 
     // tslint:disable-next-line:max-line-length
-    // this.linkcol$ = this.linkColRetrieveService.getLinkCol('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/linkcol/linkcol.json');
+    this.linkcol$ = this.linkColRetrieveService.getLinkCol('https://wo8timespace175zero2.github.io/kgw-rsrc/assets/json/linkcol/linkcol.json');
   }
 
   openLink(uri: string) {
