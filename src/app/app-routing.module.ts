@@ -25,7 +25,8 @@ const routes: Routes = [
   {  path: 'article/:id', component: ArticleComponent  },
   { path: 'scrapbook/:scrapbookId', loadChildren: './yorinuki/scrapbook/scrapbook.module#ScrapbookPageModule' },
   { path: 'linkcol', loadChildren: './linkcol/linkcol.module#LinkcolPageModule' },
-  { path: 'wolfsessions', loadChildren: './wolfsessions/wolfsessions.module#WolfsessionsPageModule' }
+  { path: 'wolfsessions', loadChildren: './wolfsessions/wolfsessions.module#WolfsessionsPageModule' },
+  { path: 'wolfzadankai/:wolfzadankaiId', loadChildren: './wolfsessions/wolfzadankai/wolfzadankai.module#WolfzadankaiPageModule' }
 ];
 
 @NgModule({
