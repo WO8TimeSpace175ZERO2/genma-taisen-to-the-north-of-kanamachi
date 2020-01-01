@@ -16,18 +16,16 @@ const routes: Routes = [
     path: 'yorinuki',
     loadChildren: './yorinuki/yorinuki.module#YorinukiPageModule'
   },
-  { path: 'koramu',
-    loadChildren: './koramu/koramu.module#KoramuPageModule' },
-  { path: 'sagalist',
-    loadChildren: './sagalist/sagalist.module#SagalistPageModule' },
-  { path: 'ishimori-shotaro-letter',
-  loadChildren: './ishimori-shotaro-letter/ishimori-shotaro-letter.module#IshimoriShotaroLetterPageModule' },
-  {  path: 'article/:id', component: ArticleComponent  },
-  { path: 'koramudetails/:articleId',
-    loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' },
-  { path: 'scrapbook/:scrapbookId', loadChildren: './yorinuki/scrapbook/scrapbook.module#ScrapbookPageModule' },
   { path: 'self-intro', loadChildren: './self-intro/self-intro.module#SelfIntroPageModule' },
-  { path: 'linkcol', loadChildren: './linkcol/linkcol.module#LinkcolPageModule' }
+  { path: 'koramu',    loadChildren: './koramu/koramu.module#KoramuPageModule' },
+  { path: 'koramudetails/:articleId',  loadChildren: './koramudetails/koramudetails.module#KoramudetailsPageModule' },
+  { path: 'sagalist',  loadChildren: './sagalist/sagalist.module#SagalistPageModule' },
+  { path: 'ishimori-shotaro-letter',
+    loadChildren: './ishimori-shotaro-letter/ishimori-shotaro-letter.module#IshimoriShotaroLetterPageModule' },
+  {  path: 'article/:id', component: ArticleComponent  },
+  { path: 'scrapbook/:scrapbookId', loadChildren: './yorinuki/scrapbook/scrapbook.module#ScrapbookPageModule' },
+  { path: 'linkcol', loadChildren: './linkcol/linkcol.module#LinkcolPageModule' },
+  { path: 'wolfsessions', loadChildren: './wolfsessions/wolfsessions.module#WolfsessionsPageModule' }
 ];
 
 @NgModule({
