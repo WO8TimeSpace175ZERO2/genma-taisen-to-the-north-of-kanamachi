@@ -16,7 +16,7 @@ import KijiItemsJson from '../../const/wolfsessions.json';
 export class WolfzadankaiPage implements OnInit {
 
   kijiItem: KijiItem;
-  articleId = null;
+  wolfzadankaiId = null;
   articleContent: Promise<SafeHtml>;
   constructor(private activatedRoute: ActivatedRoute ,
               private articleService: ArticleService,
@@ -24,13 +24,15 @@ export class WolfzadankaiPage implements OnInit {
     }
 
   ngOnInit() {
-    this.kijiItem = KijiItemsJson.kijiItems.find((kijiItem) => kijiItem.kijiId === this.articleId);
+    this.wolfzadankaiId = this.activatedRoute.snapshot.paramMap.get('wolfzadankaiId');
+
+    this.kijiItem = KijiItemsJson.kijiItems.find((kijiItem) => kijiItem.kijiId === this.wolfzadankaiId);
     const title = this.kijiItem.title;
     const metaDesc =  this.kijiItem.note;
     const metaImg = this.kijiItem.metaImageUrl;
     this.pageSvc.setPage({ title, metaDesc, metaImg });
 
-    this.articleContent = this.articleService.retrieveArticleContent(this.articleId );
+    this.articleContent = this.articleService.retrieveArticleContent(this.wolfzadankaiId );
   }
 
 }
