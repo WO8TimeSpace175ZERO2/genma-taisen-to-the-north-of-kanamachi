@@ -1,49 +1,13 @@
 {
 	"kijiItems": [
 		{
-			"kijiId": "wolfzadankai001historya",
-			"title": "作品「幻魔大戦」の成り立ち（１）",
-			"note": "少年マガジン版／秋田書店版 幻魔大戦 連載終了について",
+			"kijiId": "wolfzadankai002august1982",
+			"title": "1982年8月読者座談会",
+			"note": "1982年8月幻魔宇宙Ⅰ平井和正氏を囲む読者代表特別座談会　最新の心境を語る　アニメ版”幻魔大戦”について語ろう",
 			"icon": "basket",
 			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
-			"createdDate": "2019年07月08日",
-			"modifiedDate": "2019年08月15日"
-		},
-		{
-			"kijiId": "wolfzadankai001historyb",
-			"title": "作品「幻魔大戦」の成り立ち（２）",
-			"note": "早川書房版 幻魔大戦の連載開始から中断について　2019年7月刊行のSFファンジン No.63 復刊9号に掲載された2017年1月22日の森優の証言から新幻魔大戦の中断の真相に迫る。",
-			"icon": "basket",
-			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
-			"createdDate": "2019年07月08日",
-			"modifiedDate": "2019年08月15日"
-		},
-		{
-			"kijiId": "wolfzadankai001historyc",
-			"title": "作品「幻魔大戦」の成り立ち（３）",
-			"note": "徳間書店版／角川書店版 幻魔大戦の連載開始から中断について",
-			"icon": "basket",
-			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
-			"createdDate": "2019年07月08日",
-			"modifiedDate": "2019年08月15日"
-		},
-		{
-			"kijiId": "wolfzadankai001historyd",
-			"title": "作品「幻魔大戦」の成り立ち（４）",
-			"note": "自主出版の幻魔大戦について",
-			"icon": "basket",
-			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
-			"createdDate": "2019年07月08日",
-			"modifiedDate": "2019年08月15日"
-		},
-		{
-			"kijiId": "wolfzadankai001historye",
-			"title": "作品「幻魔大戦」の成り立ち（５）",
-			"note": "小学館のコミック配信サイトで連載中の幻魔大戦について",
-			"icon": "basket",
-			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
-			"createdDate": "2019年07月08日",
-			"modifiedDate": "2019年07月22日"
+			"createdDate": "2020年02月29日",
+			"modifiedDate": "2020年02月29日"
 		}
 	]
 }
