@@ -56,6 +56,13 @@ export class AppComponent {
       children: []
     },
     {
+      title: 'ウルフSession座談会特集',
+      url: '/wolfsessions',
+      icon: 'people',
+      open: false,
+      children: []
+    },
+    {
       title: 'コラム',
       url: '/koramu',
       icon: 'list',

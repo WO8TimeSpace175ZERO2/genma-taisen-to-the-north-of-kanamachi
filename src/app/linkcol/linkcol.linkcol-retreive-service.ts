@@ -365,6 +365,7 @@ export class LinkColRetrieveService {
             tap(kijiItems =>  kijiItems.forEach(kijiItem => {
                 if (!kijiItem.icon) {
                     kijiItem.icon = this.getRandomIcon();
+                    console.log(`kijiId:${kijiItem.kijiId} <= ${kijiItem.icon}`);
                 }
             }))
         );
