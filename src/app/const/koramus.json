@@ -274,19 +274,28 @@
 			"kijiId": "koramu024faq001",
 			"title": "よくある質問 どうしてカフー？",
 			"note": "角川映画版幻魔大戦のラスボスの名前はなぜ永井荷風なのか。",
-			"icon": "mic-off",
-			"metaImageUrl": "https://wo8timespace175zero2.github.io/kgw-rsrc/assets/koramus_a/koramu023iamsummarizinggenmataisen/i-am-summarizing-genmataisen.png",
-			"createdDate": "2020年02月29日",
-			"modifiedDate": "2020年02月29日"
+			"icon": "wine",
+			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
+			"createdDate": "2020年03月01日",
+			"modifiedDate": "2020年03月01日"
 		},
 		{
 			"kijiId": "koramu025request-to-shogakukan",
 			"title": "小学館に誤植の電話をした",
 			"note": "小学館に幻魔大戦 Rebirth 第11巻の誤植を伝えた",
-			"icon": "mic-off",
-			"metaImageUrl": "https://wo8timespace175zero2.github.io/kgw-rsrc/assets/koramus_a/koramu023iamsummarizinggenmataisen/i-am-summarizing-genmataisen.png",
-			"createdDate": "2020年02月29日",
-			"modifiedDate": "2020年02月29日"
+			"icon": "megaphone",
+			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
+			"createdDate": "2020年03月01日",
+			"modifiedDate": "2020年03月01日"
+		},
+		{
+			"kijiId": "koramu026kinkyou20200301",
+			"title": "近況（2020年3月1日）",
+			"note": "近況（2020年3月1日）",
+			"icon": "mail-open",
+			"metaImageUrl": "https://eager-kilby-e6c21f.netlify.com/assets/genma-wars-home.jpg",
+			"createdDate": "2020年03月01日",
+			"modifiedDate": "2020年03月01日"
 		}
 	]
 }

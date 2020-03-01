@@ -31,6 +31,10 @@
 		<loc>https://eager-kilby-e6c21f.netlify.com/linkcol</loc>
 		<priority>0.50</priority>
 	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/wolfsessions</loc>
+		<priority>0.80</priority>
+	</url>
 	<!--第3階層 スクラップブック-->
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/scrapbook/scrapbook001</loc>
@@ -185,6 +189,20 @@
 	</url>
 	<url>
 		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu023iamsummarizinggenmataisen</loc>
+		<priority>0.30</priority>
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu024faq001</loc>
+		<priority>0.30</priority>
+	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu025request-to-shogakukan</loc>
+		<priority>0.30</priority>
+	</url>
+	
+	<!--第3階層 ウルフセッション-->
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/wolfzadankai/wolfzadankai002august1982</loc>
 		<priority>0.30</priority>
 	</url>
 	
