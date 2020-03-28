@@ -264,6 +264,11 @@
 		<priority>0.30</priority>
 		<mobile:mobile />
 	</url>
+	<url>
+		<loc>https://eager-kilby-e6c21f.netlify.com/koramudetails/koramu027faq002</loc>
+		<priority>0.30</priority>
+		<mobile:mobile />
+	</url>
 	
 	<!--第3階層 ウルフセッション-->
 	<url>
