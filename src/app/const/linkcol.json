@@ -748,43 +748,43 @@
 			"kijiId": "0122000",
 			"icon": "folder",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 第１章 きまぐれ☆電子書籍ストリート",
-			"url": "http://repadars.org/66.html"
+			"url": "http://irupa-na.repadars.org/66.html"
 		},
 		{
 			"kijiId": "0123000",
 			"icon": "arrow-dropdown",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 第２章　NECデジタルブックからAdobeへの移行",
-			"url": "http://repadars.org/67.html"
+			"url": "http://irupa-na.repadars.org/67.html"
 		},
 		{
 			"kijiId": "0124000",
 			"icon": "star-outline",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 第３章　ウルフガイ新作「月光魔術團作戦」の始動",
-			"url": "http://repadars.org/68.html"
+			"url": "http://irupa-na.repadars.org/68.html"
 		},
 		{
 			"kijiId": "0125000",
 			"icon": "add-circle",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 第４章　紙媒体からの離脱、電子書籍出版へ",
-			"url": "http://repadars.org/69.html"
+			"url": "http://irupa-na.repadars.org/69.html"
 		},
 		{
 			"kijiId": "0126000",
 			"icon": "unlock",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 第５章　約束の年月とお別れのアスキー",
-			"url": "http://repadars.org/70.html"
+			"url": "http://irupa-na.repadars.org/70.html"
 		},
 		{
 			"kijiId": "0127000",
 			"icon": "build",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 第６章　ウルフガイ完結までの、あと一歩",
-			"url": "http://repadars.org/71.html"
+			"url": "http://irupa-na.repadars.org/71.html"
 		},
 		{
 			"kijiId": "0128000",
 			"icon": "git-branch",
 			"title": "ウルフガイと電子書籍先駆者の軌跡 最終章　残された幻魔大戦の世界へ",
-			"url": "http://repadars.org/72.html"
+			"url": "http://irupa-na.repadars.org/72.html"
 		},
 		{
 			"kijiId": "0129000",
@@ -1853,57 +1853,120 @@
 			"icon": "brush",
 			"title": "平井部 映画版『幻魔大戦』２",
 			"url": "https://ameblo.jp/tender-blue/entry-12578744871.html"
-		},{
+		},
+		{
 			"kijiId": "0013006",
 			"icon": "brush",
 			"title": "平井部 映画版『幻魔大戦』３",
 			"url": "https://ameblo.jp/tender-blue/entry-12579056161.html"
-		},{
+		},
+		{
 			"kijiId": "0013007",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦 Rebirth １巻",
 			"url": "https://ameblo.jp/tender-blue/entry-12579308816.html"
-		},{
+		},
+		{
 			"kijiId": "0013008",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦 Rebirth ２巻",
 			"url": "https://ameblo.jp/tender-blue/entry-12579542853.html"
-		},{
+		},
+		{
 			"kijiId": "0013009",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦 Rebirth ３巻",
 			"url": "https://ameblo.jp/tender-blue/entry-12580055783.html"
-		},{
+		},
+		{
 			"kijiId": "0013010",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦　神話前夜の章",
 			"url": "https://ameblo.jp/tender-blue/entry-12580292177.html"
-		},{
+		},
+		{
 			"kijiId": "0013011",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦 Rebirth ４巻",
 			"url": "https://ameblo.jp/tender-blue/entry-12580518096.html"
-		},{
+		},
+		{
 			"kijiId": "00130112",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦 Rebirth ５巻",
 			"url": "https://ameblo.jp/tender-blue/entry-12580999906.html"
-		},{
+		},
+		{
 			"kijiId": "00130113",
 			"icon": "brush",
 			"title": "平井部 幻魔大戦 Rebirth ６巻",
 			"url": "https://ameblo.jp/tender-blue/entry-12582675793.html"
-		},{
+		},
+		{
 			"kijiId": "00130114",
 			"icon": "brush",
 			"title": "春分 Stabat Mater コンサート",
 			"url": "https://ameblo.jp/tender-blue/entry-12585487535.html"
 		},
 		{
+			"kijiId": "00130115",
+			"icon": "brush",
+			"title": "幻魔大戦 Rebirth ７巻 | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12587212064.html"
+		},
+		{
+			"kijiId": "00130116",
+			"icon": "brush",
+			"title": "幻魔大戦 Rebirth ８巻 その１ | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12587452291.html"
+		},
+		{
+			"kijiId": "00130117",
+			"icon": "brush",
+			"title": "幻魔大戦 Rebirth ８巻 その２ | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12587678882.html"
+		},
+		{
+			"kijiId": "00130118",
+			"icon": "brush",
+			"title": "幻魔大戦 Rebirth ９巻 | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12588674038.html"
+		},
+		{
+			"kijiId": "00130119",
+			"icon": "brush",
+			"title": "幻魔大戦 Rebirth １０巻 | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12590657576.html"
+		},
+		{
+			"kijiId": "00130120",
+			"icon": "brush",
+			"title": "幻魔大戦 Rebirth １１巻 | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12590914014.html"
+		},
+		{
+			"kijiId": "00130121",
+			"icon": "brush",
+			"title": "ボブカットミチ子姉さま | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12593130947.html"
+		},
+		{
+			"kijiId": "00130122",
+			"icon": "brush",
+			"title": "コミック幻魔イラスト(^_^) | 平井部",
+			"url": "https://ameblo.jp/tender-blue/entry-12595421358.html"
+		},
+		{
 			"kijiId": "0014000",
 			"icon": "key",
 			"title": "レッドロビンの趣　≪ブログの巻≫ 考察『新幻魔大戦』",
 			"url": "https://ameblo.jp/tkaname/entry-12576114482.html"
+		},
+		{
+			"kijiId": "0014010",
+			"icon": null,
+			"title": "幻魔宇宙の片隅に　連載第２回 | レッドロビンの趣　≪ブログの巻≫",
+			"url": "https://ameblo.jp/tkaname/entry-12600643093.html"
 		},
 		{
 			"kijiId": "0015000",
@@ -1964,6 +2027,66 @@
 			"icon": "volume-low",
 			"title": "『幻魔大戦 Rebirth 1巻』｜感想・レビュー・試し読み - 読書メーター",
 			"url": "https://bookmeter.com/books/9683631"
+		},
+		{
+			"kijiId": "0024001",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 2巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/9787397"
+		},
+		{
+			"kijiId": "0024002",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 3巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/10395307"
+		},
+		{
+			"kijiId": "0024003",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 4巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/11198054"
+		},
+		{
+			"kijiId": "0024004",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 5巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/11598605"
+		},
+		{
+			"kijiId": "0024005",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 6巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/12264079"
+		},
+		{
+			"kijiId": "0024006",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 7巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/12649387"
+		},
+		{
+			"kijiId": "0024007",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 8巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/13083932"
+		},
+		{
+			"kijiId": "0024008",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 9巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/13564122"
+		},
+		{
+			"kijiId": "0024009",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 10巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/14251015"
+		},
+		{
+			"kijiId": "0024010",
+			"icon": "volume-low",
+			"title": "『幻魔大戦 Rebirth 11巻』｜感想・レビュー・試し読み - 読書メーター",
+			"url": "https://bookmeter.com/books/15098682"
 		}
 	]
 }
